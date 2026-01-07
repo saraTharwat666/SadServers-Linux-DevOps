@@ -1,6 +1,7 @@
 # 🚀 Scenario: Salta - Node.js Dockerization
 
-![Docker Run]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmtpZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/o0vwzuFwCGAFO/giphy.gif](https://goldeneagle.ai/media/media/uploads/docker.gif))
+![Docker Hop](https://media.tenor.com/soT27Z6i4gMAAAAM/hop-on-docker-desktop-docker.gif)
+
 
 ## 📝 Challenge Description
 A "dockerized" Node.js web application is located in the `/home/admin/app` directory. The goal is to create a Docker container that exposes the app on port `:8888`.
