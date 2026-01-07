@@ -1,6 +1,6 @@
 # 🛠️ System Debugging & Infrastructure Lab
 
-![Docker Magic](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRydm9ueGZ6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/3ohzdTbc97tLR87O3S/giphy.gif)
+![Docker Magic]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRydm9ueGZ6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/3ohzdTbc97tLR87O3S/giphy.gif](https://miro.medium.com/1*42K-swiwgm3lZ2xRyNU5ow.gif))
 
 ## 📌 What's happening here?
 This repository is a collection of hands-on solutions for broken infrastructure. Each directory contains a deep dive into a specific system failure—ranging from Docker container crashes and networking bottlenecks to PostgreSQL replication mismatches.
