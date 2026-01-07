@@ -1,6 +1,6 @@
 # 🛠️ System Debugging & Infrastructure Lab
 
-![Docker Magic]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRydm9ueGZ6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/3ohzdTbc97tLR87O3S/giphy.gif](https://cdn.dribbble.com/userupload/24402225/file/original-4256973cace26f81b3ea48264db5a642.gif))
+![System Debugging](https://cdn.dribbble.com/userupload/24402225/file/original-4256973cace26f81b3ea48264db5a642.gif)
 
 ## 📌 Overview
 This repository contains hands-on debugging scenarios for broken systems and infrastructure.  
