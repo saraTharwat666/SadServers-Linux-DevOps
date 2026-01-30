@@ -1,0 +1,17 @@
+Scenario: "Kampot": A New Port
+
+Level: Easy
+
+Type: Do
+
+Access: Email
+
+Description: A Python app serving simulated bank data runs as root and listens on port 20280. The app is managed by supervisor and cannot be stopped or reconfigured to use a different port.
+
+An internal legacy monitoring system expects the service to be available on port 80, but the app is hardcoded to 20280 for security and legacy reasons. Your task is to make the service accessible on port 80 locally.
+
+Test: curl localhost:80/accounts returns [{"id":1,"name":"Alice","type":"Checking"},{"id":2,"name":"Bob","type":"Savings"},{"id":3,"name":"Charlie","type":"Business"}]
+
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
+
+Time to Solve: 10 minutes.
