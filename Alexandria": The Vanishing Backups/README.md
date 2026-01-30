@@ -31,9 +31,9 @@ Upon inspecting the crontab, two major issues were found:
 I manually removed the stale lock file to "unlock" the script:
 ```bash
 sudo rm -f /opt/backup/backup.lock
+```
 Step 2: Verification
 Tested the script manually to ensure it successfully creates a compressed archive:
-```
 
 
 ```Bash
