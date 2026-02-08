@@ -1,0 +1,17 @@
+Scenario: "Moyogalpa": Security Snag. The Trials of Mary and John
+
+Level: Medium
+
+Type: Fix
+
+Access: Email
+
+Description: Mary and John are working on a Golang web application, and the security team has asked them to implement security measures. Unfortunately, they have broken the application, and it no longer functions. They need your help to fix it.
+
+The fixed application should be able to allow clients to communicate with the application over HTTPS without ignoring any checks. (eg: curl https://webapp:7000/users.html) and serve its static files.
+
+Test: curl https://webapp:7000/users.html should return the content of file.
+
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
+
+Time to Solve: 30 minutes.
