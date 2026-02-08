@@ -1,0 +1,16 @@
+Scenario: "Budapest": User Creation
+
+Level: Medium
+
+Type: Do
+
+Access: Email
+
+Description: Given the file user_list.txt you must create all the users specified in the file with their corresponding passwords.
+
+The entries in the user_list.txt file are stored as username;password
+
+Test: All users are created with the right password.
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
+
+Time to Solve: 30 minutes.
