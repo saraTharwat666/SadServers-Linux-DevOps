@@ -1,0 +1,21 @@
+Scenario: "Kampala": Strange Script Error
+
+Level: Medium
+
+Type: Fix
+
+Access: Email
+
+Description: A developer has been working on Linux deployment scripts on their machine and then transferred the files to a Linux server. However, when they try to execute the scripts, they encounter the mysterious error:
+
+-bash: cannot execute: required file not found
+
+The scripts appear to be syntactically correct, but something is preventing them from executing properly. The developer needs your help to identify and fix the issue so the deployment can proceed.
+
+There are several script files in /home/admin/deploy/ that need to be fixed before the deployment process can work correctly.
+
+Test: All script files in /home/admin/deploy/ should execute without the cannot execute: required file not found error.
+
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
+
+Time to Solve: 15 minutes.
