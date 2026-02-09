@@ -1,0 +1,20 @@
+Scenario: "Bizerte": The Slow Application
+
+Level: Medium
+
+Type: Fix
+
+Access: Email
+
+Description: A Python web application running on port 5000 from the /opt directory is experiencing severe performance issues; every request takes more than 5 seconds to complete.
+The application is supposed to use the redis-server cache service for speed.
+
+Your mission is to diagnose the performance bottleneck and restore the application to its normal, fast response time.
+
+Do not change the Python application file slow_app.py.
+
+Test: curl localhost:5000 returns Data from FAST cache!
+
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
+
+Time to Solve: 15 minutes.
