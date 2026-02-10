@@ -1,43 +1,68 @@
-# 🛠️ System Debugging & Infrastructure Lab
+![Linux GIF](https://media.tenor.com/soT27Z6i4gMAAAAM/linux.gif)
 
-![System Debugging](https://cdn.dribbble.com/userupload/24402225/file/original-4256973cace26f81b3ea48264db5a642.gif)
+# 🐧 SadServers Solutions — Mission Accomplished!
 
-## 📌 Overview
-This repository contains hands-on debugging scenarios for broken systems and infrastructure.  
-Each directory represents a real-world failure case and documents the investigation and fix.
+This repository documents my **hands-on solutions** for challenges from [SadServers](https://sadservers.com), focused on **real Linux system debugging**, not theoretical fixes.
 
-The focus is on **Root Cause Analysis (RCA)** — understanding *why* the system failed, not just how to restart it.
+The challenges range from **Medium** up to **Hard / Hack** levels and simulate real-world incidents a DevOps or Linux Admin would face in production.
 
 ---
 
-## 🔍 What You'll Find Here
-- Docker containers failing to start
-- Networking and port conflicts
-- Misconfigured services and permissions
-- System and database-level issues
-- Practical Linux-based debugging
+## 🛠️ Challenges Solved
 
-Each scenario includes:
-- Problem description  
-- Investigation steps  
-- Root cause  
-- Final fix  
+### 1️⃣ Jakarta — *It’s Always DNS* 🌐
 
----
+* **Level:** Hard
+* **Core Concept:** Linux Name Service Switch (NSS) & DNS Resolution Flow
+* **Root Cause:** Incorrect lookup order in `/etc/nsswitch.conf`
+* **Fix Applied:**
 
-## ⚙️ Debugging Workflow
+  * Adjusted hostname resolution priority to allow DNS queries beyond local files
+  * Verified resolution behavior using `getent`, `dig`, and `ping`
 
-![DevOps Life](https://i.pinimg.com/originals/f5/5e/80/f55e8059ea945abfd6804b887dd4a0af.gif)
-
-- **Log Analysis:** `journalctl`, `docker logs`, service logs  
-- **System Inspection:** ports, permissions, limits, environment variables  
-- **Fix & Validation:** apply the solution and verify stability  
+📌 **Key Lesson:** DNS issues often come from local resolution rules — not the DNS server itself.
 
 ---
 
-## 🎯 Goal
-Build strong debugging and troubleshooting skills through realistic infrastructure failures.
+### 2️⃣ Monaco — *The Disappearing Trick* 🕵️‍♂️
+
+* **Level:** Hack
+* **Core Concept:** Linux Forensics & Process Memory Inspection
+* **Root Cause:** Sensitive credentials removed from Git history but still loaded in memory
+* **Fix Applied:**
+
+  * Inspected running processes under `/proc/[PID]/environ`
+  * Extracted hidden environment variables from memory
+  * Used the recovered secret to restore access
+
+📌 **Key Lesson:** Removing secrets from Git does **not** remove them from a running system.
 
 ---
 
-**Maintained by a DevOps Engineer focused on reliability and system recovery.**
+## 🚀 Skills Demonstrated
+
+* **Linux System Administration**
+
+  * Editing and validating `/etc/` configurations
+* **Networking & Troubleshooting**
+
+  * DNS debugging, `curl` POST requests, `ip`, `ss`, and `ping`
+* **Security & Forensics**
+
+  * Process inspection via `/proc`
+  * Git history analysis for leaked secrets
+* **Automation & Speed Fixes**
+
+  * Practical usage of `sed`, `grep`, and `awk`
+
+---
+
+## 🔗 Quick Links
+
+* **Platform:** [https://sadservers.com](https://sadservers.com)
+* **My Profile:** *(Add your SadServers profile link here)*
+
+---
+
+> *“Linux is not just an OS — it’s a mindset built on debugging, curiosity, and ownership.”*
+
